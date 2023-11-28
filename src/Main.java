@@ -10,10 +10,14 @@ public class Main {
         StringBuilder str2 = new StringBuilder();
         str2.append("La penna è sul tappeto");
         if (str1.compareTo(str2) == 0){
-            System.out.println("Il risultato della comparazione è:" + " " + "Le due stringhe sono uguali");
+            StringBuilder str3 = new StringBuilder("Il risultato della comparazione è:");
+            StringBuilder str4 = new StringBuilder("Le due stringhe sono uguali");
+            System.out.println( str3.append(str4));
         }
         else {
-            System.out.println("Il risultato della comparazione è:" + " " + "Le due stringhe sono differenti");
+            StringBuilder str5 = new StringBuilder("Il risultato della comparazione è:");
+            StringBuilder str6 = new StringBuilder("Le due stringhe sono differenti");
+            System.out.println( str5.append(str6));
         }
 
     }
